@@ -1,0 +1,128 @@
+{
+ "generated": "2026-10-05",
+ "season": 2026,
+ "teams_with_published_majors": 7,
+ "players_rostered": 757,
+ "players_with_major": 613,
+ "coverage": {
+  "Plymouth St.": {
+   "rostered": 99,
+   "with_major": 99,
+   "pct": 100.0
+  },
+  "UMass Dartmouth": {
+   "rostered": 131,
+   "with_major": 131,
+   "pct": 100.0
+  },
+  "Worcester St.": {
+   "rostered": 74,
+   "with_major": 74,
+   "pct": 100.0
+  },
+  "Framingham St.": {
+   "rostered": 95,
+   "with_major": 95,
+   "pct": 100.0
+  },
+  "Fitchburg St.": {
+   "rostered": 76,
+   "with_major": 76,
+   "pct": 100.0
+  },
+  "Dean": {
+   "rostered": 76,
+   "with_major": 14,
+   "pct": 18.4
+  },
+  "Mass Maritime": {
+   "rostered": 125,
+   "with_major": 124,
+   "pct": 99.2
+  },
+  "New England Col": {
+   "rostered": 81,
+   "with_major": 0,
+   "pct": 0.0
+  }
+ },
+ "composition": {
+  "Business & Management": 261,
+  "STEM & Engineering": 141,
+  "Criminal Justice & Social Sciences": 85,
+  "Kinesiology & Sport Science": 30,
+  "Undeclared / Other": 29,
+  "Sport Management": 22,
+  "Health Sciences": 20,
+  "Humanities, Arts & Education": 13,
+  "Communication & Media": 12
+ },
+ "unique_stat_leaders": 62,
+ "stat_leaders_with_major": 43,
+ "leader_chi_square": 12.97,
+ "leader_cramers_v": 0.194,
+ "leader_df": 8,
+ "team_results": {
+  "Plymouth St.": {
+   "w": 2,
+   "l": 2,
+   "pf": 55.0,
+   "pa": 77.0
+  },
+  "New England Col": {
+   "w": 1,
+   "l": 4,
+   "pf": 63.0,
+   "pa": 199.0
+  },
+  "Worcester St.": {
+   "w": 2,
+   "l": 3,
+   "pf": 165.0,
+   "pa": 148.0
+  },
+  "Bridgewater St.": {
+   "w": 3,
+   "l": 1,
+   "pf": 166.0,
+   "pa": 105.0
+  },
+  "Dean": {
+   "w": 0,
+   "l": 4,
+   "pf": 34.0,
+   "pa": 145.0
+  },
+  "Framingham St.": {
+   "w": 3,
+   "l": 0,
+   "pf": 80.0,
+   "pa": 54.0
+  },
+  "Mass Maritime": {
+   "w": 3,
+   "l": 0,
+   "pf": 145.0,
+   "pa": 22.0
+  },
+  "Westfield St.": {
+   "w": 2,
+   "l": 2,
+   "pf": 85.0,
+   "pa": 92.0
+  },
+  "Fitchburg St.": {
+   "w": 1,
+   "l": 3,
+   "pf": 91.0,
+   "pa": 129.0
+  },
+  "UMass Dartmouth": {
+   "w": 1,
+   "l": 3,
+   "pf": 112.0,
+   "pa": 92.0
+  }
+ },
+ "player_notes_as_of": "2026-10-05"
+}

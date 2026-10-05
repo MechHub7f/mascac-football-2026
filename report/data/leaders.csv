@@ -1,0 +1,186 @@
+category,stat,player,team,games,value,major,major_category
+Yards per game,YPG,M Marcucella,Framingham St.,3,291.7,Accounting,Business & Management
+Yards per game,YPG,M Bakaysa,Worcester St.,5,242.4,Business Administration,Business & Management
+Yards per game,YPG,J Petrongolo,Mass.-Dartmouth,4,194.0,Engineering,STEM & Engineering
+Yards per game,YPG,C Donohue,Dean,4,179.0,,
+Yards per game,YPG,J Barber,Bridgewater St.,4,174.3,,
+Touchdowns,PTD,M Bakaysa,Worcester St.,5,11,Business Administration,Business & Management
+Touchdowns,PTD,M Marcucella,Framingham St.,3,7,Accounting,Business & Management
+Touchdowns,PTD,J Barber,Bridgewater St.,4,7,,
+Touchdowns,PTD,J Petrongolo,Mass.-Dartmouth,4,4,Engineering,STEM & Engineering
+Touchdowns,PTD,Q Sumner,Westfield St.,4,4,,
+Completions,COMP,C Donohue,Dean,4,102,,
+Completions,COMP,M Bakaysa,Worcester St.,5,87,Business Administration,Business & Management
+Completions,COMP,J Petrongolo,Mass.-Dartmouth,4,54,Engineering,STEM & Engineering
+Completions,COMP,M Marcucella,Framingham St.,3,51,Accounting,Business & Management
+Completions,COMP,J Barber,Bridgewater St.,4,51,,
+Completion %,PCT,J Barber,Bridgewater St.,4,71.8%,,
+Completion %,PCT,C Donohue,Dean,4,65.4%,,
+Completion %,PCT,M Bakaysa,Worcester St.,5,62.1%,Business Administration,Business & Management
+Completion %,PCT,M Marcucella,Framingham St.,3,59.3%,Accounting,Business & Management
+Completion %,PCT,D Domercant,Fitchburg St.,4,56.8%,Business Administration,Business & Management
+Attempts,ATT,C Donohue,Dean,4,156,,
+Attempts,ATT,M Bakaysa,Worcester St.,5,140,Business Administration,Business & Management
+Attempts,ATT,J Petrongolo,Mass.-Dartmouth,4,107,Engineering,STEM & Engineering
+Attempts,ATT,M Marcucella,Framingham St.,3,86,Accounting,Business & Management
+Attempts,ATT,D Domercant,Fitchburg St.,4,81,Business Administration,Business & Management
+Yards,YDS,M Bakaysa,Worcester St.,5,1212,Business Administration,Business & Management
+Yards,YDS,M Marcucella,Framingham St.,3,875,Accounting,Business & Management
+Yards,YDS,J Petrongolo,Mass.-Dartmouth,4,776,Engineering,STEM & Engineering
+Yards,YDS,C Donohue,Dean,4,716,,
+Yards,YDS,J Barber,Bridgewater St.,4,697,,
+Yards per game,Y/G,M Marcucella,Framingham St.,3,291.7,Accounting,Business & Management
+Yards per game,Y/G,M Bakaysa,Worcester St.,5,242.4,Business Administration,Business & Management
+Yards per game,Y/G,J Petrongolo,Mass.-Dartmouth,4,194.0,Engineering,STEM & Engineering
+Yards per game,Y/G,C Donohue,Dean,4,179.0,,
+Yards per game,Y/G,J Barber,Bridgewater St.,4,174.3,,
+Yards per attempt,Y/A,D Foster,Dean,4,53.0,Athletic Coaching and Recreation Management,Sport Management
+Yards per attempt,Y/A,S Whiting,Bridgewater St.,3,12.0,,
+Yards per attempt,Y/A,M Marcucella,Framingham St.,3,10.2,Accounting,Business & Management
+Yards per attempt,Y/A,J Reddin,Dean,1,10.0,,
+Yards per attempt,Y/A,J Barber,Bridgewater St.,4,9.8,,
+Interceptions,INT,M Bakaysa,Worcester St.,5,5,Business Administration,Business & Management
+Interceptions,INT,M Galligan,Fitchburg St.,2,3,Business,Business & Management
+Interceptions,INT,M Marcucella,Framingham St.,3,3,Accounting,Business & Management
+Interceptions,INT,D Domercant,Fitchburg St.,4,3,Business Administration,Business & Management
+Interceptions,INT,J Petrongolo,Mass.-Dartmouth,4,2,Engineering,STEM & Engineering
+Pass Efficiency,EFFIC,J Barber,Bridgewater St.,4,184.0,,
+Pass Efficiency,EFFIC,M Marcucella,Framingham St.,3,164.7,Accounting,Business & Management
+Pass Efficiency,EFFIC,M Bakaysa,Worcester St.,5,153.6,Business Administration,Business & Management
+Pass Efficiency,EFFIC,J Petrongolo,Mass.-Dartmouth,4,120.0,Engineering,STEM & Engineering
+Pass Efficiency,EFFIC,C Donohue,Dean,4,107.7,,
+Rushes,RUSH,M Wilson,Mass.-Dartmouth,4,83,Communications,Communication & Media
+Rushes,RUSH,R Stewart,Fitchburg St.,4,78,Graphic Design,"Humanities, Arts & Education"
+Rushes,RUSH,A Cloutman,Bridgewater St.,4,73,,
+Rushes,RUSH,J Graham,Plymouth St.,4,73,Business,Business & Management
+Rushes,RUSH,C Donohue,Dean,4,69,,
+Yards,YDS,M Wilson,Mass.-Dartmouth,4,575,Communications,Communication & Media
+Yards,YDS,R Stewart,Fitchburg St.,4,550,Graphic Design,"Humanities, Arts & Education"
+Yards,YDS,A Cloutman,Bridgewater St.,4,458,,
+Yards,YDS,G Hatfield,Worcester St.,5,416,Business Management,Business & Management
+Yards,YDS,J Graham,Plymouth St.,4,335,Business,Business & Management
+Yards per game,Y/G,M Wilson,Mass.-Dartmouth,4,143.8,Communications,Communication & Media
+Yards per game,Y/G,R Stewart,Fitchburg St.,4,137.5,Graphic Design,"Humanities, Arts & Education"
+Yards per game,Y/G,A Cloutman,Bridgewater St.,4,114.5,,
+Yards per game,Y/G,J Graham,Plymouth St.,4,83.8,Business,Business & Management
+Yards per game,Y/G,G Hatfield,Worcester St.,5,83.2,Business Management,Business & Management
+Yards per rush,AVG,J Barber,Bridgewater St.,4,7.8,,
+Yards per rush,AVG,R Stewart,Fitchburg St.,4,7.1,Graphic Design,"Humanities, Arts & Education"
+Yards per rush,AVG,M Wilson,Mass.-Dartmouth,4,6.9,Communications,Communication & Media
+Yards per rush,AVG,G Hatfield,Worcester St.,5,6.5,Business Management,Business & Management
+Yards per rush,AVG,R Gramlich,Mass. Maritime,3,6.3,International Maritime Business,Business & Management
+Touchdowns,TD,A Cloutman,Bridgewater St.,4,6,,
+Touchdowns,TD,M Wilson,Mass.-Dartmouth,4,6,Communications,Communication & Media
+Touchdowns,TD,O Weah,Bridgewater St.,4,5,,
+Touchdowns,TD,J Schwartz,Mass. Maritime,3,4,Facilities Engineering,STEM & Engineering
+Touchdowns,TD,L Williams,Worcester St.,5,4,Public Health,Health Sciences
+Receptions,REC,L Williams,Worcester St.,5,35,Public Health,Health Sciences
+Receptions,REC,D Kimball,Dean,4,28,Marketing,Business & Management
+Receptions,REC,D Foster,Dean,4,22,Athletic Coaching and Recreation Management,Sport Management
+Receptions,REC,T Sholtz,Dean,4,21,,
+Receptions,REC,E Cabey,Fitchburg St.,3,19,Criminal Justice,Criminal Justice & Social Sciences
+Yards,YDS,L Williams,Worcester St.,5,521,Public Health,Health Sciences
+Yards,YDS,J Francois,Mass.-Dartmouth,4,342,Business,Business & Management
+Yards,YDS,M Fowler,Framingham St.,3,322,Marketing,Business & Management
+Yards,YDS,M Hymes,Westfield St.,4,291,,
+Yards,YDS,E Poe,Bridgewater St.,4,241,,
+Yards per game,Y/G,M Fowler,Framingham St.,3,107.3,Marketing,Business & Management
+Yards per game,Y/G,L Williams,Worcester St.,5,104.2,Public Health,Health Sciences
+Yards per game,Y/G,J Francois,Mass.-Dartmouth,4,85.5,Business,Business & Management
+Yards per game,Y/G,E Cabey,Fitchburg St.,3,73.0,Criminal Justice,Criminal Justice & Social Sciences
+Yards per game,Y/G,M Hymes,Westfield St.,4,72.8,,
+Yards per catch,AVG,M Fowler,Framingham St.,3,29.3,Marketing,Business & Management
+Yards per catch,AVG,J Francois,Mass.-Dartmouth,4,20.1,Business,Business & Management
+Yards per catch,AVG,E Poe,Bridgewater St.,4,17.2,,
+Yards per catch,AVG,M Andrews,Mass.-Dartmouth,4,17.1,Marketing,Business & Management
+Yards per catch,AVG,J Comeau,Bridgewater St.,4,16.6,,
+Touchdowns,TD,M Hymes,Westfield St.,4,4,,
+Touchdowns,TD,M Fowler,Framingham St.,3,4,Marketing,Business & Management
+Touchdowns,TD,J Poirier,Worcester St.,5,4,Criminal Justice,Criminal Justice & Social Sciences
+Touchdowns,TD,L Williams,Worcester St.,5,3,Public Health,Health Sciences
+Touchdowns,TD,S Martinez,Mass. Maritime,3,3,Marine Transportation,STEM & Engineering
+Solo tackles,TKL,W Vogel,Worcester St.,5,23,Business Management,Business & Management
+Solo tackles,TKL,D Mitchell,Worcester St.,5,23,Business Marketing,Business & Management
+Solo tackles,TKL,C Topkin,Fitchburg St.,4,21,Education Studies,"Humanities, Arts & Education"
+Solo tackles,TKL,H Esquival Mendez,Dean,4,21,Sport Management,Sport Management
+Solo tackles,TKL,C Goodrich,Worcester St.,5,18,Criminal Justice,Criminal Justice & Social Sciences
+Assists,AST,B Melendez,Worcester St.,5,23,Business Administration,Business & Management
+Assists,AST,J Aquino,Bridgewater St.,4,18,,
+Assists,AST,J Roman,Worcester St.,5,18,Criminal Justice,Criminal Justice & Social Sciences
+Assists,AST,W Vogel,Worcester St.,5,16,Business Management,Business & Management
+Assists,AST,A Verba,Westfield St.,4,16,,
+Tackles,TOT,W Vogel,Worcester St.,5,39.0,Business Management,Business & Management
+Tackles,TOT,B Melendez,Worcester St.,5,37.0,Business Administration,Business & Management
+Tackles,TOT,C Topkin,Fitchburg St.,4,35.0,Education Studies,"Humanities, Arts & Education"
+Tackles,TOT,C Goodrich,Worcester St.,5,34.0,Criminal Justice,Criminal Justice & Social Sciences
+Tackles,TOT,H Esquival Mendez,Dean,4,33.0,Sport Management,Sport Management
+Tackles per game,DTPG,C Topkin,Fitchburg St.,4,8.8,Education Studies,"Humanities, Arts & Education"
+Tackles per game,DTPG,H Esquival Mendez,Dean,4,8.3,Sport Management,Sport Management
+Tackles per game,DTPG,W Vogel,Worcester St.,5,7.8,Business Management,Business & Management
+Tackles per game,DTPG,B Melendez,Worcester St.,5,7.4,Business Administration,Business & Management
+Tackles per game,DTPG,A Lovell,Westfield St.,4,7.3,,
+Tackle for loss,TFL,D Brown,Fitchburg St.,3,6.5,Business Management,Business & Management
+Tackle for loss,TFL,J Aquino,Bridgewater St.,4,6.0,,
+Tackle for loss,TFL,T Taveras,Plymouth St.,4,6.0,Information Technology,STEM & Engineering
+Tackle for loss,TFL,K Hardin,Fitchburg St.,4,5.5,Business,Business & Management
+Tackle for loss,TFL,D Johnson,Framingham St.,3,5.0,Communication Arts,Communication & Media
+Sacks,SCK,T Taveras,Plymouth St.,4,3.5,Information Technology,STEM & Engineering
+Sacks,SCK,W Vogel,Worcester St.,5,3.0,Business Management,Business & Management
+Sacks,SCK,D Brown,Fitchburg St.,3,3.0,Business Management,Business & Management
+Sacks,SCK,K Hardin,Fitchburg St.,4,3.0,Business,Business & Management
+Sacks,SCK,A Verba,Westfield St.,4,2.5,,
+Sack yards,YDS,K Hardin,Fitchburg St.,4,32,Business,Business & Management
+Sack yards,YDS,A Verba,Westfield St.,4,31,,
+Sack yards,YDS,B Brown,Plymouth St.,4,20,English Education,"Humanities, Arts & Education"
+Sack yards,YDS,T Taveras,Plymouth St.,4,20,Information Technology,STEM & Engineering
+Sack yards,YDS,W Vogel,Worcester St.,5,19,Business Management,Business & Management
+Fumble recoveries,FR,S Jurbala,Mass. Maritime,3,1,Marine Transportation,STEM & Engineering
+Fumble recoveries,FR,E Lovell,Westfield St.,4,1,,
+Fumble recoveries,FR,B Wing,Bridgewater St.,4,1,,
+Fumble recoveries,FR,C Hartrey,Mass. Maritime,2,1,Marine Transportation,STEM & Engineering
+Fumble recoveries,FR,C Topkin,Fitchburg St.,4,1,Education Studies,"Humanities, Arts & Education"
+Interceptions,INT,L Lambert,Bridgewater St.,4,3,,
+Interceptions,INT,B Holmes,Fitchburg St.,4,2,Business,Business & Management
+Interceptions,INT,T Fields,Framingham St.,3,2,Accounting,Business & Management
+Interceptions,INT,D Julius,Mass.-Dartmouth,4,2,Business,Business & Management
+Interceptions,INT,E Lovell,Westfield St.,4,1,,
+Field goals made,FGM,A Currier,Westfield St.,4,3,,
+Field goals made,FGM,T Kelley,Framingham St.,3,2,Marketing,Business & Management
+Field goals made,FGM,S Rios,Worcester St.,5,2,Business Administration,Business & Management
+Field goals made,FGM,G Smith,Mass. Maritime,3,1,Marine Transportation,STEM & Engineering
+Field goals made,FGM,C Harvey,Bridgewater St.,4,0,,
+Field goal attempts,FGA,S Rios,Worcester St.,5,4,Business Administration,Business & Management
+Field goal attempts,FGA,A Currier,Westfield St.,4,3,,
+Field goal attempts,FGA,C Harvey,Bridgewater St.,4,3,,
+Field goal attempts,FGA,T Kelley,Framingham St.,3,3,Marketing,Business & Management
+Field goal attempts,FGA,C McManus,Mass.-Dartmouth,4,3,Business,Business & Management
+Field goal %,PCT,A Currier,Westfield St.,4,100%,,
+Field goal %,PCT,G Smith,Mass. Maritime,3,100%,Marine Transportation,STEM & Engineering
+Field goal %,PCT,T Kelley,Framingham St.,3,67%,Marketing,Business & Management
+Field goal %,PCT,S Rios,Worcester St.,5,50%,Business Administration,Business & Management
+Field goal %,PCT,C Harvey,Bridgewater St.,4,0%,,
+Field goal long,LG,G Smith,Mass. Maritime,3,42,Marine Transportation,STEM & Engineering
+Field goal long,LG,S Rios,Worcester St.,5,35,Business Administration,Business & Management
+Field goal long,LG,A Currier,Westfield St.,4,33,,
+Field goal long,LG,T Kelley,Framingham St.,3,27,Marketing,Business & Management
+Field goal long,LG,C Harvey,Bridgewater St.,4,0,,
+P-A-T made,XPM,C Harvey,Bridgewater St.,4,20,,
+P-A-T made,XPM,S Rios,Worcester St.,5,19,Business Administration,Business & Management
+P-A-T made,XPM,C McManus,Mass.-Dartmouth,4,14,Business,Business & Management
+P-A-T made,XPM,G Smith,Mass. Maritime,3,12,Marine Transportation,STEM & Engineering
+P-A-T made,XPM,A Currier,Westfield St.,4,10,,
+P-A-T attempts,XPA,C Harvey,Bridgewater St.,4,24,,
+P-A-T attempts,XPA,S Rios,Worcester St.,5,21,Business Administration,Business & Management
+P-A-T attempts,XPA,C McManus,Mass.-Dartmouth,4,15,Business,Business & Management
+P-A-T attempts,XPA,G Smith,Mass. Maritime,3,15,Marine Transportation,STEM & Engineering
+P-A-T attempts,XPA,T Kelley,Framingham St.,3,11,Marketing,Business & Management
+P-A-T %,PCT,A Currier,Westfield St.,4,100%,,
+P-A-T %,PCT,R Bryant,Plymouth St.,2,100%,Cyber Security,STEM & Engineering
+P-A-T %,PCT,J Sansone,Mass. Maritime,3,100%,Emergency Management,Business & Management
+P-A-T %,PCT,C McManus,Mass.-Dartmouth,4,93%,Business,Business & Management
+P-A-T %,PCT,S Rios,Worcester St.,5,90%,Business Administration,Business & Management
+Points,PTS,S Rios,Worcester St.,5,25,Business Administration,Business & Management
+Points,PTS,C Harvey,Bridgewater St.,4,20,,
+Points,PTS,A Currier,Westfield St.,4,19,,
+Points,PTS,G Smith,Mass. Maritime,3,15,Marine Transportation,STEM & Engineering
+Points,PTS,T Kelley,Framingham St.,3,14,Marketing,Business & Management

@@ -23,6 +23,25 @@ js/data.js                 Teams list + editorial player notes (edit me)
 js/app.js                  Live ESPN fetch + rendering
 .github/workflows/deploy.yml   GitHub Pages deployment
 .nojekyll                  Tell Pages to serve files as-is
+report/                    Four-page research report (Markdown + PDF + data)
+```
+
+## Research report
+
+`report/` contains a four-page academic-style paper, *"Do Majors Make the Player?
+Academic Fields and Football Performance Among Plymouth State's 2026 Opponents,"*
+which studies the declared majors of every player at the programs Plymouth State
+plays in 2026 (where public rosters list them) against those programs' results.
+
+- `report/majors-and-football.md` — paper source
+- `report/majors-and-football.pdf` — rendered PDF (pandoc + Tectonic)
+- `report/data/players.csv`, `leaders.csv`, `team_results.csv`, `summary.json` — datasets
+- `report/references.bib`, `report/build.sh` — bibliography and build script
+
+Rebuild the PDF (requires `pandoc` and [Tectonic](https://tectonic-typesetting.github.io)):
+
+```bash
+cd report && ./build.sh
 ```
 
 ## Run locally
