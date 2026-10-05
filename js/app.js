@@ -170,6 +170,7 @@ function pctStr(w, l) {
 
 function render(ok, failures) {
   renderSummary();
+  renderNextGame();
   renderStandings();
   renderFilters();
   renderSchedule();
@@ -195,6 +196,74 @@ function renderSummary() {
   $("#stat-played").textContent = played;
   $("#stat-upcoming").textContent = upcoming;
   $("#stat-weeks").textContent = days;
+}
+
+function renderNextGame() {
+  const box = $("#next-game");
+  const now = Date.now();
+  const upcoming = ALL_GAMES
+    .filter((g) => !g.completed && !g.canceled && !g.postponed && g.date.getTime() > now)
+    .sort((a, b) => a.date - b.date);
+
+  const g = upcoming[0];
+  if (!g) {
+    box.hidden = true;
+    return;
+  }
+
+  box.hidden = false;
+  $("#ng-conf").textContent = g.conference ? "MASCAC" : "Non-conference";
+
+  const away = $("#ng-away");
+  const home = $("#ng-home");
+  away.querySelector("img").src = g.away.logo;
+  away.querySelector("b").textContent = g.away.name;
+  home.querySelector("img").src = g.home.logo;
+  home.querySelector("b").textContent = g.home.name;
+
+  $("#ng-when").textContent =
+    `${g.date.toLocaleDateString(undefined, { weekday: "long", month: "long", day: "numeric" })} · ` +
+    `${fmtTime(g.date)} · ${g.venue || "TBD"}`;
+
+  const cd = $("#ng-countdown");
+  cd.dataset.kickoff = g.date.toISOString();
+  tickCountdowns();
+}
+
+function tickCountdowns() {
+  const now = Date.now();
+  document.querySelectorAll("[data-kickoff]").forEach((el) => {
+    const iso = el.getAttribute("data-kickoff");
+    if (!iso) return;
+    const diff = new Date(iso).getTime() - now;
+    const isFull = el.classList.contains("countdown");
+
+    if (diff <= 0) {
+      if (isFull) {
+        el.classList.add("ng-live");
+        el.querySelectorAll("[data-unit]").forEach((s) => (s.textContent = "0"));
+      } else {
+        el.textContent = "Kicking off";
+        el.classList.add("live");
+      }
+      return;
+    }
+
+    const d = Math.floor(diff / 86400000);
+    const h = Math.floor((diff % 86400000) / 3600000);
+    const m = Math.floor((diff % 3600000) / 60000);
+    const s = Math.floor((diff % 60000) / 1000);
+
+    if (isFull) {
+      const set = (u, v) => {
+        const n = el.querySelector(`[data-unit="${u}"]`);
+        if (n) n.textContent = v;
+      };
+      set("d", d); set("h", h); set("m", m); set("s", s);
+    } else {
+      el.textContent = d > 0 ? `in ${d}d ${h}h ${m}m` : `in ${h}h ${m}m ${s}s`;
+    }
+  });
 }
 
 function renderStandings() {
@@ -300,7 +369,7 @@ function gameHTML(g) {
     mid = `<div class="time">Live</div><span class="status-badge live">${esc(g.detail || "In progress")}</span>`;
   } else {
     mid = `<div class="time">${esc(fmtTime(g.date))}</div>
-           <span class="status-badge">Scheduled</span>`;
+           <span class="mini-cd" data-kickoff="${g.date.toISOString()}">scheduled</span>`;
   }
 
   const confTag = g.conference
@@ -356,6 +425,7 @@ function renderPlayers() {
 
 $("#team-filter").addEventListener("change", renderSchedule);
 $("#status-filter").addEventListener("change", renderSchedule);
+setInterval(tickCountdowns, 1000);
 $("#refresh").addEventListener("click", async () => {
   const btn = $("#refresh");
   btn.disabled = true;

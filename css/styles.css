@@ -116,6 +116,48 @@ body {
 .stat-num { font-size: 1.7rem; font-weight: 800; letter-spacing: -0.02em; }
 .stat-label { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); font-weight: 600; }
 
+/* ---- Next-game countdown ------------------------------------------------- */
+.next-game {
+  margin-top: 1.5rem;
+  background: linear-gradient(135deg, #063a26 0%, var(--brand) 100%);
+  color: #fff;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.15rem 1.35rem 1.25rem;
+}
+.ng-top { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.ng-label { text-transform: uppercase; letter-spacing: 0.08em; font-size: 0.72rem; font-weight: 700; color: #bfe3d1; }
+.ng-conf { font-size: 0.72rem; font-weight: 700; color: #063a26; background: var(--accent); border-radius: 999px; padding: 0.15rem 0.55rem; }
+.ng-body { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 1rem; margin-top: 0.6rem; }
+.ng-matchup { display: flex; align-items: center; gap: 0.7rem; font-size: 1.15rem; }
+.ng-team { display: inline-flex; align-items: center; gap: 0.45rem; font-weight: 700; }
+.ng-team img { width: 34px; height: 34px; object-fit: contain; }
+.ng-at { color: #bfe3d1; font-weight: 500; font-size: 0.9rem; }
+
+.countdown { display: flex; gap: 0.5rem; }
+.cd-unit {
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 10px;
+  min-width: 3.6rem;
+  padding: 0.35rem 0.5rem;
+  text-align: center;
+}
+.cd-num { display: block; font-size: 1.55rem; font-weight: 800; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.cd-lab { display: block; font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.07em; color: #cfe9db; }
+.ng-when { margin-top: 0.55rem; font-size: 0.85rem; color: #d6efe1; }
+.ng-live .cd-num { color: var(--accent); }
+
+.mini-cd {
+  display: inline-block;
+  margin-top: 0.1rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--brand-2);
+  font-variant-numeric: tabular-nums;
+}
+.mini-cd.live { color: var(--live); }
+
 /* ---- Panels -------------------------------------------------------------- */
 .panel {
   background: var(--panel);

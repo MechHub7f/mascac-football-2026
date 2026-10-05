@@ -7,6 +7,8 @@ season — the conference **Plymouth State** plays in. It shows:
 - **Schedule & results** for every MASCAC team, merged into one list: final
   scores for games already played, kickoff times for upcoming games, and
   filters by team / status.
+- A **live countdown** to the next kickoff, plus a per-game countdown on every
+  upcoming game.
 - **Players to watch** — one featured player from each of the nine teams with a
   short note about what they've done so far this season.
 

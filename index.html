@@ -36,6 +36,27 @@
       <div class="stat"><span class="stat-num" id="stat-weeks">–</span><span class="stat-label">Game days</span></div>
     </section>
 
+    <section class="next-game" id="next-game" hidden aria-label="Next kickoff countdown">
+      <div class="ng-top">
+        <span class="ng-label">Next kickoff</span>
+        <span class="ng-conf" id="ng-conf"></span>
+      </div>
+      <div class="ng-body">
+        <div class="ng-matchup">
+          <span class="ng-team" id="ng-away"><img alt="" onerror="this.style.visibility='hidden'"><b></b></span>
+          <span class="ng-at">at</span>
+          <span class="ng-team" id="ng-home"><img alt="" onerror="this.style.visibility='hidden'"><b></b></span>
+        </div>
+        <div class="countdown" id="ng-countdown" data-kickoff="">
+          <div class="cd-unit"><span class="cd-num" data-unit="d">–</span><span class="cd-lab">days</span></div>
+          <div class="cd-unit"><span class="cd-num" data-unit="h">–</span><span class="cd-lab">hrs</span></div>
+          <div class="cd-unit"><span class="cd-num" data-unit="m">–</span><span class="cd-lab">min</span></div>
+          <div class="cd-unit"><span class="cd-num" data-unit="s">–</span><span class="cd-lab">sec</span></div>
+        </div>
+      </div>
+      <div class="ng-when" id="ng-when"></div>
+    </section>
+
     <section class="panel" id="standings-panel">
       <div class="panel-head">
         <h2>Standings</h2>

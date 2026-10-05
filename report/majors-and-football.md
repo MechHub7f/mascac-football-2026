@@ -116,50 +116,37 @@ coverage is the single largest constraint on any conclusion.
 
 ### 3.2 Composition
 
-Business & Management dominates the sample at 42.6% (**Table 2**). STEM & Engineering is
+Business & Management dominates the sample at 42.6% (**Figure 1A**). STEM & Engineering is
 second at 23.0%, but this is driven almost entirely by Mass Maritime Academy, where 85 of
 141 STEM declarations (and 124 total majors) reside; excluding Mass Maritime, STEM falls
 to roughly 10%. Criminal Justice & Social Sciences is a distant third at 13.9%. The
-"athlete pipeline" fields — Kinesiology & Sport Science plus Sport Management — together
-account for just 8.5% of declared majors.
+"athlete pipeline" fields — Kinesiology & Sport Science (4.9%) plus Sport Management
+(3.6%) — together account for just 8.5% of declared majors. Composition varies sharply by
+program (**Figure 2**): Mass Maritime is overwhelmingly technical, whereas business and
+criminal justice dominate the regional state universities.
 
-**Table 2. Major-category composition (n = 613 players with a declared major).**
+![Academic-major composition. (A) Share of the 613 players with a declared
+major by category. (B) Statistical leaders (n = 43) versus the roster baseline; business
+is the only category over-represented among leaders.](figures/fig1_composition.pdf){width=92%}
 
-| Category | Players | Share |
-|:---|---:|---:|
-| Business & Management | 261 | 42.6% |
-| STEM & Engineering | 141 | 23.0% |
-| Criminal Justice & Social Sciences | 85 | 13.9% |
-| Kinesiology & Sport Science | 30 | 4.9% |
-| Undeclared / Other | 29 | 4.7% |
-| Sport Management | 22 | 3.6% |
-| Health Sciences | 20 | 3.3% |
-| Humanities, Arts & Education | 13 | 2.1% |
-| Communication & Media | 12 | 2.0% |
+![Major composition by program (rostered players with a declared major).
+Dean (*) publishes majors for only a fraction of its roster.](figures/fig2_by_program.pdf){width=88%}
 
 ### 3.3 Position and major
 
-Majors are not distributed evenly across positions (**Table 3**). Defensive backs and
+Majors are not distributed evenly across positions (**Figure 3**). Defensive backs and
 skill players are the most business-oriented (Secondary 52.7%; Skill 46.2%), whereas
 offensive and defensive linemen and linebackers are comparatively more likely to be in
 STEM or criminal justice. Kinesiology is concentrated in skill positions. The overall
 association is modest ($\chi^2$ = 59.10, df = 40, Cramér's *V* = .139, n = 612).
 
-**Table 3. Position group by major category (counts).**
-
-| Position group | n | Business | STEM | Crim. Justice | Kinesiology | Other |
-|:---|---:|---:|---:|---:|---:|---:|
-| Skill (QB/RB/WR/TE) | 199 | 92 | 37 | 18 | 13 | 39 |
-| Offensive Line | 98 | 37 | 28 | 20 | 6 | 7 |
-| Defensive Line | 96 | 36 | 26 | 18 | 3 | 13 |
-| Linebackers | 83 | 26 | 22 | 16 | 5 | 14 |
-| Secondary | 112 | 59 | 21 | 11 | 3 | 18 |
-| Specialists | 24 | 10 | 7 | 2 | 0 | 5 |
+![Major category by position group (row percentages; n = 612 players with a
+declared major).](figures/fig3_position_heatmap.pdf){width=84%}
 
 ### 3.4 Statistical leaders
 
 Among the 43 statistical leaders with a published major, Business & Management is
-over-represented: 53.5% versus 42.6% on the roster (**Table 4**; $\chi^2$ = 12.97, df = 8,
+over-represented: 53.5% versus 42.6% on the roster (**Figure 1B**; $\chi^2$ = 12.97, df = 8,
 Cramér's *V* = .194; permutation *p* = .089). Notably, **not one** published leader is in
 kinesiology/exercise science. The most productive players span fields: the top passer
 (M. Bakaysa, Worcester State, 1,212 yards and 11 touchdowns) is a Business Administration
@@ -171,29 +158,20 @@ receiver (L. Williams, 521 yards) is a Public Health major, while the sack leade
 does not reach conventional significance, and multiple category comparisons inflate Type I
 error.
 
-**Table 4. Major category: statistical leaders versus roster baseline.**
-
-| Category | Leaders | Leader % | Roster % |
-|:---|---:|---:|---:|
-| Business & Management | 23 | 53.5% | 42.6% |
-| STEM & Engineering | 8 | 18.6% | 23.0% |
-| Criminal Justice & Social Sciences | 4 | 9.3% | 13.9% |
-| Humanities, Arts & Education | 3 | 7.0% | 2.1% |
-| Sport Management | 2 | 4.7% | 3.6% |
-| Communication & Media | 2 | 4.7% | 2.0% |
-| Kinesiology & Sport Science | 0 | 0.0% | 4.9% |
-
-*Leaders n = 43 (of 62 unique leaders); $\chi^2$ = 12.97, df = 8, Cramér's V = .194,
-permutation p = .089.*
-
 ### 3.5 Team performance
 
 Team success shows no monotonic relationship with major mix. The two unbeaten programs are
 opposites: Mass Maritime (3–0, +123 differential) fields an almost entirely STEM/technical
 roster reflecting its maritime-engineering mission, while Framingham State (3–0) is
-business-heavy. Success-weighted representation illustrates the trap: players declaring
-STEM have the highest mean team win percentage (.73) and scoring margin (+25.8), but that
-figure is produced by a single specialized institution, not by STEM per se.
+business-heavy. **Figure 4** plots team win percentage against each program's share of
+business and STEM majors; neither relationship is monotonic, and the apparent STEM
+advantage in success-weighted representation (players declaring STEM have a .73 mean team
+win percentage and +25.8 mean margin) is produced by a single specialized institution, not
+by STEM per se.
+
+![Team win percentage versus the share of a program's roster in Business &
+Management (A) and STEM & Engineering (B), for the seven programs that publish majors.
+Institutional mission, not major, drives the visible pattern.](figures/fig4_success.pdf){width=90%}
 
 ## 4. Discussion
 

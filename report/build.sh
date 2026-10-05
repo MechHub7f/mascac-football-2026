@@ -17,7 +17,7 @@ pandoc majors-and-football.md \
   -H header.tex \
   -V geometry:margin=0.7in \
   -V fontsize=10pt \
-  -V linestretch=0.97 \
+  -V linestretch=0.95 \
   -V colorlinks=true -V linkcolor=blue -V urlcolor=blue
 
 echo "wrote majors-and-football.pdf"
