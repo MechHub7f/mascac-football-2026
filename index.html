@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MASCAC Football — 2026 Season</title>
+  <meta name="description" content="Live MASCAC college football schedule, scores and standings for the 2026 season, plus a featured player from every team." />
+  <link rel="preconnect" href="https://a.espncdn.com" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏈</text></svg>" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#schedule">Skip to schedule</a>
+
+  <header class="hero">
+    <div class="wrap hero-inner">
+      <div>
+        <p class="eyebrow">NCAA Division III &middot; Massachusetts State Collegiate Athletic Conference</p>
+        <h1>MASCAC Football</h1>
+        <p class="season">2026 Season &middot; Schedule, Scores &amp; Standings</p>
+      </div>
+      <div class="hero-meta">
+        <span id="updated" class="updated">Loading&hellip;</span>
+        <button id="refresh" class="refresh" type="button">Refresh</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section id="status" class="status" aria-live="polite" hidden></section>
+
+    <section class="stats" id="summary" aria-label="Season summary">
+      <div class="stat"><span class="stat-num" id="stat-teams">–</span><span class="stat-label">Teams</span></div>
+      <div class="stat"><span class="stat-num" id="stat-played">–</span><span class="stat-label">Games played</span></div>
+      <div class="stat"><span class="stat-num" id="stat-upcoming">–</span><span class="stat-label">Games remaining</span></div>
+      <div class="stat"><span class="stat-num" id="stat-weeks">–</span><span class="stat-label">Game days</span></div>
+    </section>
+
+    <section class="panel" id="standings-panel">
+      <div class="panel-head">
+        <h2>Standings</h2>
+        <p class="hint">Conference record first, then overall, then point differential. Updated live.</p>
+      </div>
+      <div class="table-scroll">
+        <table class="standings" id="standings">
+          <thead>
+            <tr>
+              <th class="col-rank">#</th>
+              <th class="col-team">Team</th>
+              <th>Conf</th>
+              <th>Pct</th>
+              <th>Overall</th>
+              <th class="col-hide">PF</th>
+              <th class="col-hide">PA</th>
+              <th class="col-hide">Diff</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="panel" id="schedule-panel">
+      <div class="panel-head">
+        <h2 id="schedule">Schedule &amp; Results</h2>
+        <div class="controls">
+          <label class="control">
+            <span>Team</span>
+            <select id="team-filter"></select>
+          </label>
+          <label class="control">
+            <span>Show</span>
+            <select id="status-filter">
+              <option value="all">All games</option>
+              <option value="completed">Results only</option>
+              <option value="upcoming">Upcoming only</option>
+              <option value="conference">Conference only</option>
+            </select>
+          </label>
+        </div>
+      </div>
+      <p class="hint">Times shown in your local timezone. Scores update as games go final.</p>
+      <div id="schedule-list" class="schedule-list"></div>
+    </section>
+
+    <section class="panel" id="players-panel">
+      <div class="panel-head">
+        <h2>Players to Watch</h2>
+        <p class="hint" id="players-asof">One standout from every team.</p>
+      </div>
+      <div id="players" class="player-grid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>Schedule, scores and records are fetched live from ESPN's public API. Team notes are editorial and updated by hand.</p>
+      <p class="muted">Not affiliated with the MASCAC, the NCAA or ESPN. Built for GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

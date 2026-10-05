@@ -1,0 +1,7 @@
+.DS_Store
+Thumbs.db
+*.log
+
+# The Actions workflow is kept on disk but not published until a PAT with the
+# `workflow` scope is used (classic) — switch Pages back to "GitHub Actions" then.
+.github/workflows/deploy.yml
