@@ -37,22 +37,38 @@ python3 -m http.server 8000
 
 ## Deploy to GitHub Pages
 
-1. Create a repository and push this project to the `main` branch:
+The site is a plain static site, so it can be served straight from the `main`
+branch — no build step required.
 
-   ```bash
-   git init
-   git add .
-   git commit -m "MASCAC Football 2026 site"
-   git branch -M main
-   git remote add origin https://github.com/<you>/<repo>.git
-   git push -u origin main
-   ```
+**Current setup (branch-based):** GitHub Pages is configured with
+*Source = Deploy from a branch*, branch `main`, folder `/`. Every push to
+`main` republishes the site. This needs only `repo` scope on a token.
 
-2. In the repository, go to **Settings → Pages** and set **Source =
-   GitHub Actions**. The included workflow builds nothing and publishes the
-   static files on every push to `main`.
+**Optional (Actions-based):** `.github/workflows/deploy.yml` is included for a
+modern Actions deploy. To use it you must push the workflow file, which GitHub
+only allows with a token that has the **`workflow`** scope:
 
-3. The site will be live at `https://<you>.github.io/<repo>/`.
+```bash
+git add -f .github/workflows/deploy.yml
+git commit -m "Add Pages deploy workflow"
+git push
+```
+
+Then set **Settings → Pages → Source = GitHub Actions**. The workflow builds
+nothing and just publishes the static files.
+
+To stand the project up from scratch:
+
+```bash
+git init
+git add .
+git commit -m "MASCAC Football 2026 site"
+git branch -M main
+git remote add origin https://github.com/<you>/mascac-football-2026.git
+git push -u origin main
+```
+
+The site will be live at `https://<you>.github.io/mascac-football-2026/`.
 
 ## Updating content
 
